@@ -1,7 +1,7 @@
 const express = require("express");
 
 const db = require("../data/db-config.js");
-const Projects = require("./project-model.js");
+const Projects = require('./models/project-model');
 
 const router = express.Router();
 
